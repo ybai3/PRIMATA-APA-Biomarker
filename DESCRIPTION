@@ -1,0 +1,18 @@
+Package: PRIMATA.APA.Biomarker
+Type: Package
+Title: PAIMATA-APA extension for predictive model training and stability analysis for validation
+Version: 0.1.0
+Author@R: person("Yulong", "Bai", email = "yub20@pitt.edu",
+  role = c("aut", "cre"))
+BugReports: https://github.com/ybai3/PRIMATA.APA.Biomarker
+Description: This package provides functions to take output from PRIMATA-APA program to build predictive model for user-defined cancer hallmarks based on miRNA numTS and expression. It also provides functions to external validate the predictive accuracy and generalizability of selected miRNAs. 
+License: BSD 3 License
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    glmnet,
+    ROCR,
+    stringr,
+    tidyr
+RoxygenNote: 7.1.2
